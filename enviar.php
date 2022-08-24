@@ -6,5 +6,5 @@
     $mensaje=$_POST["Mensaje"];
     $contenido="Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTeléfono: " . $phone . "\nMensaje: " . $mensaje;
     mail($destino,"Contacto",$contenido);
-    header("Location:https://mgmarinera.github.io/MGmarinera/index.html");
+    header("Location:index.html");
 ?>
