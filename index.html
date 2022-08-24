@@ -335,11 +335,11 @@
                 </div>
                 <div class="col-lg-6" data-aos=fade-right>
                     <div class="leave-comment">
-                        <form action="enviar.php" method="post">
-                            <input type="text" name="Nombre" placeholder="Nombre" required>
-                            <input type="text" name="Correo" placeholder="Correo" required>
-                            <input type="text" name="Telefono" placeholder="Teléfono" required>
-                            <textarea name="Mensaje" placeholder="Mensaje" required></textarea>
+                        <form action="enviar.php" method="POST">
+                            <input type="text" name="nombre" placeholder="Nombre" required>
+                            <input type="email" name="correo" placeholder="Correo" required>
+                            <input type="number" name="telefono" placeholder="Teléfono" required>
+                            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
                             <button type="submit">Enviar</button>
                         </form>
                     </div>
